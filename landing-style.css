@@ -121,3 +121,33 @@ body {
     border: 4px solid #3882f6;
     border-radius: 16%;
 }
+
+.body-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    background-size: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.body-three-text-box {
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+#quote {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 850px;
+}
+
+#quote-signature {
+    display: flex;
+    justify-content:right;
+    font-size: 16px;
+    font-weight: bolder;
+   
+}
