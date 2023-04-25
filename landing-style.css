@@ -151,3 +151,44 @@ body {
     font-weight: bolder;
    
 }
+
+.body-four {
+    display: flex;
+    background-color: #f9faf8;
+    height: 320px;
+    justify-content: center;
+}
+
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 800px;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 7px;
+    
+}
+
+#Call-text {
+    font-weight: bold;
+}
+
+#second-button {
+    background-color: #3882f6;
+    color: white;
+    height: 45px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
